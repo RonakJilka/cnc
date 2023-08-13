@@ -1,35 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-
-// function App() {
-//   const [results, setResults] = useState([]);
-
-//   useEffect(() => {
-//     const initialValue = 21;
-//     const subtractionAmount = 0.33;
-//     const newResults = [];
-
-//     let currentValue = initialValue;
-//     for (let i = 0; i < 21; i++) {
-//       newResults.push(currentValue.toFixed(2));
-//       currentValue -= subtractionAmount;
-//     }
-
-//     setResults(newResults);
-//   }, []);
-
-//   return (
-//     <div>
-//       <p>Subtraction Results:</p>
-//       <ul>
-//         {results.map((result, index) => (
-//           <li key={index}>{result}</li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-// export default App;
 import React, { useState } from 'react';
 import './App.css';
 
@@ -51,27 +19,7 @@ function App() {
     setInputValue1(event.target.value)
   };
 
-  // React.useEffect(() => {
-  //   const additionAmount = "0.333";
-  //   const repetitions = "21";
-  //   const newResults = [];
 
-  //   let currentValue = "0";
-
-  //   let quantity = parseFloat(currentValue);
-
-  //   let additionAmount1 = parseFloat(additionAmount);
-
-
-
-
-  //   for (let i = 0; i < repetitions; i++) {
-  //     quantity += additionAmount1;
-  //     newResults.push(quantity.toFixed(3));
-  //   }
-
-  //   setResults(newResults);
-  // }, []);
 
   const handleButtonClick = () => {
 
